@@ -1,0 +1,78 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --font-size-large: 24px;
+    --container-width: 500px;
+    --container-height: 300px;
+    --cell-border-color: hsl(348, 44%, 62%);
+    --hover-background-color: #b8dfb2;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+  }
+  
+  .container {
+    width: var(--container-width);
+    height: var(--container-height);
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: var(--primary-color);
+    font-size: var(--font-size-large);
+    text-align: center;
+  }
+  
+  ul li:first-child{
+    font-weight: bold;
+    color:crimson;
+  }
+  a {
+    color:rgb(48, 32, 218);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #ff4500; 
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: #008000; 
+  }
+  
+  img {
+    width: 200px;
+    height: 150px;
+    
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  table td:first-child {
+    background-color: whitesmoke; 
+  }
+  table tr:last-child td {
+    background-color: #8fbcab; 
+}
+  table td,
+  table th {
+    border: 1px solid var(--cell-border-color);
+    padding: 10px;
+  }
+  
+  table tbody tr:hover {
+    background-color: var(--hover-background-color);
+  }
+  
+  table thead th {
+    background-color: hsl(175, 74%, 53%);
+  }
+  
